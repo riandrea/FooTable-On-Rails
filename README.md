@@ -1,7 +1,5 @@
 # FooTable::On::Rails
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,9 +14,11 @@ And then execute:
 ## Usage
 
 1. Add this line below before require_tree on 'application.css' file
+
 	*= require footable-on-rails
 
 2. Add this line below before require_tree on 'application.js'
+
 	//= require footable-on-rails
 
 ## Contributing

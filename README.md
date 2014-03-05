@@ -4,7 +4,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'FooTable-On-Rails'
+    gem 'footable-on-rails'
 
 And then execute:
 
@@ -15,11 +15,15 @@ And then execute:
 
 1. Add this line below before require_tree on 'application.css' file
 
-	*= require footable-on-rails
+    *= require footable-on-rails
+
+2. Add this line after the above line to use the metro style
+
+    *= require footable-on-rails/footable.metro.css
 
 2. Add this line below before require_tree on 'application.js'
 
-	//= require footable-on-rails
+    //= require footable-on-rails
 
 ## Contributing
 

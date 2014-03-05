@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'FooTable-On-Rails/version'
+require 'footable-on-rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "FooTable-On-Rails"
-  spec.version       = FooTableOnRails::Rails::VERSION
+  spec.name          = "footable-on-rails"
+  spec.version       = FootableOnRails::Rails::VERSION
   spec.authors       = ["Rian Andrea"]
   spec.email         = ["rian.andrea@gmail.com"]
   spec.description   = %q{Integrates FooTable On Rails}

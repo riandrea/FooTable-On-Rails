@@ -1,0 +1,646 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FooTable/css/footable.core.min.css at V2 · bradvin/FooTable · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="bradvin/FooTable" name="twitter:title" /><meta content="FooTable - jQuery plugin to make HTML tables responsive" name="twitter:description" /><meta content="https://2.gravatar.com/avatar/87df524abcdbb0207a58e6a441bf489e?d=https%3A%2F%2Fidenticons.github.com%2F3a118f49443234b1a9012269edd1054d.png&amp;r=x&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://2.gravatar.com/avatar/87df524abcdbb0207a58e6a441bf489e?d=https%3A%2F%2Fidenticons.github.com%2F3a118f49443234b1a9012269edd1054d.png&amp;r=x&amp;s=400" property="og:image" /><meta content="bradvin/FooTable" property="og:title" /><meta content="https://github.com/bradvin/FooTable" property="og:url" /><meta content="FooTable - jQuery plugin to make HTML tables responsive" property="og:description" />
+
+    <meta name="hostname" content="github-fe118-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87c9373a41) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="8BC091D4:3BE0:C2C78A:5316C0C5" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="V/fmsWfDgsXcwz5OOCDbwMu2wF0yN9u0oWUUQwNEC5Q=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-144f6fbd93cc11df8cc03bc000351f75fa1e5875.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-ff993fcf465373a314708ecedfbbffc29250b930.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-490867a148cf94468c141093ccd4e56ed2144eb9.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-a74d8739a439667125da3a5c5435962d57986a54.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="348cbaf0429fd819da9310a1f5148dfb">
+
+        <link data-pjax-transient rel='permalink' href='/bradvin/FooTable/blob/8cc05102f0c05ab93400573848043dd0ed240512/css/footable.core.min.css'>
+
+  <meta name="description" content="FooTable - jQuery plugin to make HTML tables responsive" />
+
+  <meta content="1409490" name="octolytics-dimension-user_id" /><meta content="bradvin" name="octolytics-dimension-user_login" /><meta content="6710201" name="octolytics-dimension-repository_id" /><meta content="bradvin/FooTable" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="6710201" name="octolytics-dimension-repository_network_root_id" /><meta content="bradvin/FooTable" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/bradvin/FooTable/commits/V2.atom" rel="alternate" title="Recent Commits to FooTable:V2" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public page-blob tipsy-tooltips">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fbradvin%2FFooTable%2Fblob%2FV2%2Fcss%2Ffootable.core.min.css">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="bradvin/FooTable"
+      data-branch="V2"
+      data-sha="0e5fa39f02fb929b298d31b86dbc3a59609ec401"
+  >
+
+    <input type="hidden" name="nwo" value="bradvin/FooTable" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fbradvin%2FFooTable"
+    class="minibutton with-count js-toggler-target star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/bradvin/FooTable/stargazers">
+      863
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fbradvin%2FFooTable"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/bradvin/FooTable/network" class="social-count">
+        209
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/bradvin" class="url fn" itemprop="url" rel="author"><span itemprop="title">bradvin</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/bradvin/FooTable" class="js-current-repository js-repo-home-link">FooTable</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/bradvin/FooTable" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /bradvin/FooTable">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/bradvin/FooTable/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /bradvin/FooTable/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>76</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/bradvin/FooTable/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /bradvin/FooTable/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>1</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/bradvin/FooTable/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /bradvin/FooTable/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/bradvin/FooTable/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /bradvin/FooTable/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/bradvin/FooTable/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /bradvin/FooTable/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/bradvin/FooTable.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/bradvin/FooTable.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/bradvin/FooTable" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/bradvin/FooTable" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+                <a href="/bradvin/FooTable/archive/V2.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:c2a99c0b0b83940711226097f8d37949 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/bradvin/FooTable/find/V2" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="V2"
+    data-ref="V2"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">V2</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/V2/css/footable.core.min.css"
+                 data-name="V2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="V2">V2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/bs3/css/footable.core.min.css"
+                 data-name="bs3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="bs3">bs3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/develop/css/footable.core.min.css"
+                 data-name="develop"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="develop">develop</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/gh-pages/css/footable.core.min.css"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/master/css/footable.core.min.css"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/blob/testing/css/footable.core.min.css"
+                 data-name="testing"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="testing">testing</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/V2.0.1.4/css/footable.core.min.css"
+                 data-name="V2.0.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="V2.0.1.4">V2.0.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/V2.0.1.3/css/footable.core.min.css"
+                 data-name="V2.0.1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="V2.0.1.3">V2.0.1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/2.0.1/css/footable.core.min.css"
+                 data-name="2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.1">2.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/2.0.0/css/footable.core.min.css"
+                 data-name="2.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.0">2.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/0.5.0/css/footable.core.min.css"
+                 data-name="0.5.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.5.0">0.5.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/0.1.0/css/footable.core.min.css"
+                 data-name="0.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0">0.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/bradvin/FooTable/tree/0.1/css/footable.core.min.css"
+                 data-name="0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1">0.1</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/bradvin/FooTable" data-branch="V2" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">FooTable</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/bradvin/FooTable/tree/V2/css" data-branch="V2" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">css</span></a></span><span class="separator"> / </span><strong class="final-path">footable.core.min.css</strong> <span aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="css/footable.core.min.css" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <img alt="Oliver Rivett-Carnac" class="main-avatar js-avatar" data-user="1888486" height="24" src="https://2.gravatar.com/avatar/2f88434e438c13a17cdf3493cc88e2fb?d=https%3A%2F%2Fidenticons.github.com%2Fc06264719d33f0d78d9d1cec07c2a0b5.png&amp;r=x&amp;s=140" width="24" />
+    <span class="author"><a href="/OliverRC" rel="author">OliverRC</a></span>
+    <time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-10-10T00:22:08-07:00" title="2013-10-10 00:22:08">October 10, 2013</time>
+    <div class="commit-title">
+        <a href="/bradvin/FooTable/commit/1339952a6c501ee3146678ed7cef21a6be5d4c65" class="message" data-pjax="true" title="run grunt on directly to generate css and js">run grunt on directly to generate css and js</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>3</strong> contributors</a></p>
+          <a class="avatar tooltipped tooltipped-s" aria-label="bradvin" href="/bradvin/FooTable/commits/V2/css/footable.core.min.css?author=bradvin"><img alt="bradvin" class=" js-avatar" data-user="1409490" height="20" src="https://2.gravatar.com/avatar/87df524abcdbb0207a58e6a441bf489e?d=https%3A%2F%2Fidenticons.github.com%2F3a118f49443234b1a9012269edd1054d.png&amp;r=x&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped tooltipped-s" aria-label="OliverRC" href="/bradvin/FooTable/commits/V2/css/footable.core.min.css?author=OliverRC"><img alt="Oliver Rivett-Carnac" class=" js-avatar" data-user="1888486" height="20" src="https://2.gravatar.com/avatar/2f88434e438c13a17cdf3493cc88e2fb?d=https%3A%2F%2Fidenticons.github.com%2Fc06264719d33f0d78d9d1cec07c2a0b5.png&amp;r=x&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped tooltipped-s" aria-label="seriema" href="/bradvin/FooTable/commits/V2/css/footable.core.min.css?author=seriema"><img alt="John-Philip Johansson" class=" js-avatar" data-user="693684" height="20" src="https://2.gravatar.com/avatar/00c81c91913dd04245ba5639a7324ee4?d=https%3A%2F%2Fidenticons.github.com%2Fcea9cffda7804d56dd1aa839d852bb74.png&amp;r=x&amp;s=140" width="20" /></a>
+
+
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="bradvin" class=" js-avatar" data-user="1409490" height="24" src="https://2.gravatar.com/avatar/87df524abcdbb0207a58e6a441bf489e?d=https%3A%2F%2Fidenticons.github.com%2F3a118f49443234b1a9012269edd1054d.png&amp;r=x&amp;s=140" width="24" />
+            <a href="/bradvin">bradvin</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="Oliver Rivett-Carnac" class=" js-avatar" data-user="1888486" height="24" src="https://2.gravatar.com/avatar/2f88434e438c13a17cdf3493cc88e2fb?d=https%3A%2F%2Fidenticons.github.com%2Fc06264719d33f0d78d9d1cec07c2a0b5.png&amp;r=x&amp;s=140" width="24" />
+            <a href="/OliverRC">OliverRC</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="John-Philip Johansson" class=" js-avatar" data-user="693684" height="24" src="https://2.gravatar.com/avatar/00c81c91913dd04245ba5639a7324ee4?d=https%3A%2F%2Fidenticons.github.com%2Fcea9cffda7804d56dd1aa839d852bb74.png&amp;r=x&amp;s=140" width="24" />
+            <a href="/seriema">seriema</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span class="meta-divider"></span>
+          <span>1 lines (1 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>4.619 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+              <a class="minibutton disabled tooltipped tooltipped-w" href="#"
+                 aria-label="You must be signed in to make or propose changes">Edit</a>
+          <a href="/bradvin/FooTable/raw/V2/css/footable.core.min.css" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/bradvin/FooTable/blame/V2/css/footable.core.min.css" class="button minibutton js-update-url-with-hash">Blame</a>
+          <a href="/bradvin/FooTable/commits/V2/css/footable.core.min.css" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+          <a class="minibutton danger disabled empty-icon tooltipped tooltipped-w" href="#"
+             aria-label="You must be signed in to make or propose changes">
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-css js-blob-data">
+        <table class="file-code file-diff tab-size-8">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+
+            </td>
+            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'><span class="k">@font-face</span><span class="p">{</span><span class="nt">font-family</span><span class="o">:</span><span class="s1">&#39;footable&#39;</span><span class="o">;</span><span class="nt">src</span><span class="nd">:url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.eot&#39;</span><span class="o">);</span><span class="nt">src</span><span class="nd">:url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.eot?#iefix&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;embedded-opentype&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.woff&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;woff&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.ttf&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;truetype&#39;</span><span class="o">),</span><span class="nt">url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.svg#footable&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;svg&#39;</span><span class="o">);</span><span class="nt">font-weight</span><span class="nd">:normal</span><span class="o">;</span><span class="nt">font-style</span><span class="nd">:normal</span><span class="p">}</span><span class="k">@media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">-webkit-min-device-pixel-ratio</span><span class="nd">:0</span><span class="o">)</span><span class="p">{</span><span class="k">@font-face</span><span class="p">{</span><span class="nt">font-family</span><span class="o">:</span><span class="s1">&#39;footable&#39;</span><span class="o">;</span><span class="nt">src</span><span class="nd">:url</span><span class="o">(</span><span class="s1">&#39;fonts/footable.svg#footable&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;svg&#39;</span><span class="o">);</span><span class="nt">font-weight</span><span class="nd">:normal</span><span class="o">;</span><span class="nt">font-style</span><span class="nd">:normal</span><span class="p">}}</span><span class="nc">.footable</span><span class="p">{</span><span class="k">width</span><span class="o">:</span><span class="m">100</span><span class="o">%</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="p">{</span><span class="k">border-bottom</span><span class="o">:</span><span class="m">0</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e001&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nd">:hover:not</span><span class="o">(</span><span class="nc">.footable-row-detail</span><span class="o">)</span><span class="p">{</span><span class="k">cursor</span><span class="o">:</span><span class="k">pointer</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="nc">.footable-cell-detail</span><span class="p">{</span><span class="k">background</span><span class="o">:</span><span class="m">#eee</span><span class="p">;</span><span class="k">border-top</span><span class="o">:</span><span class="m">0</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span><span class="k">font-family</span><span class="o">:</span><span class="s1">&#39;footable&#39;</span><span class="p">;</span><span class="k">speak</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="k">font-style</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">font-weight</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">font-variant</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">text-transform</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span><span class="n">antialiased</span><span class="p">;</span><span class="k">padding-right</span><span class="o">:</span><span class="m">5px</span><span class="p">;</span><span class="k">font-size</span><span class="o">:</span><span class="m">14px</span><span class="p">;</span><span class="k">color</span><span class="o">:</span><span class="m">#888</span><span class="p">}</span><span class="nc">.footable.breakpoint</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e000&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-circle</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e005&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-circle</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e004&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-circle-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e003&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-circle-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e002&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-square</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e007&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-square</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e006&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-square-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e009&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-square-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e008&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e00f&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e011&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-small</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e013&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-small</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e015&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-circle</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e01b&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-circle</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e01d&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-circle-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e00b&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-circle-filled</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e00d&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-tiny</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e01f&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-tiny</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e021&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-alt</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="nc">.footable-detail-show</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e017&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-arrow-alt</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e019&quot;</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-medium</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="p">{</span><span class="k">font-size</span><span class="o">:</span><span class="m">18px</span><span class="p">}</span><span class="nc">.footable.breakpoint.toggle-large</span><span class="o">&gt;</span><span class="nt">tbody</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">td</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-toggle</span><span class="p">{</span><span class="k">font-size</span><span class="o">:</span><span class="m">24px</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="p">{</span><span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">touch</span><span class="o">-</span><span class="n">callout</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">select</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">khtml</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">select</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">select</span><span class="o">:-</span><span class="n">moz</span><span class="o">-</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">ms</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">select</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="n">user</span><span class="o">-</span><span class="n">select</span><span class="o">:</span><span class="k">none</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="nc">.footable-sortable</span><span class="nd">:hover</span><span class="p">{</span><span class="k">cursor</span><span class="o">:</span><span class="k">pointer</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="nc">.footable-sorted</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-sort-indicator</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e013&quot;</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="nc">.footable-sorted-desc</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-sort-indicator</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e012&quot;</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-sort-indicator</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span><span class="k">font-family</span><span class="o">:</span><span class="s1">&#39;footable&#39;</span><span class="p">;</span><span class="k">speak</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="k">font-style</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">font-weight</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">font-variant</span><span class="o">:</span><span class="k">normal</span><span class="p">;</span><span class="k">text-transform</span><span class="o">:</span><span class="k">none</span><span class="p">;</span><span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span><span class="n">antialiased</span><span class="p">;</span><span class="k">padding-left</span><span class="o">:</span><span class="m">5px</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">thead</span><span class="o">&gt;</span><span class="nt">tr</span><span class="o">&gt;</span><span class="nt">th</span><span class="o">&gt;</span><span class="nt">span</span><span class="nc">.footable-sort-indicator</span><span class="nd">:before</span><span class="p">{</span><span class="k">content</span><span class="o">:</span><span class="s2">&quot;\e022&quot;</span><span class="p">}</span><span class="nc">.footable</span><span class="o">&gt;</span><span class="nt">tfoot</span> <span class="nc">.pagination</span><span class="p">{</span><span class="k">margin</span><span class="o">:</span><span class="m">0</span><span class="p">}</span><span class="nc">.footable.no-paging</span> <span class="nc">.hide-if-no-paging</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">none</span><span class="p">}</span><span class="nc">.footable-row-detail-inner</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="n">table</span><span class="p">}</span><span class="nc">.footable-row-detail-row</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">table-row</span><span class="p">;</span><span class="k">line-height</span><span class="o">:</span><span class="m">1.5em</span><span class="p">}</span><span class="nc">.footable-row-detail-group</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">block</span><span class="p">;</span><span class="k">line-height</span><span class="o">:</span><span class="m">2em</span><span class="p">;</span><span class="k">font-size</span><span class="o">:</span><span class="m">1.2em</span><span class="p">;</span><span class="k">font-weight</span><span class="o">:</span><span class="k">bold</span><span class="p">}</span><span class="nc">.footable-row-detail-name</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">table-cell</span><span class="p">;</span><span class="k">font-weight</span><span class="o">:</span><span class="k">bold</span><span class="p">;</span><span class="k">padding-right</span><span class="o">:.</span><span class="m">5em</span><span class="p">}</span><span class="nc">.footable-row-detail-value</span><span class="p">{</span><span class="k">display</span><span class="o">:</span><span class="k">table-cell</span><span class="p">}</span><span class="nc">.footable-odd</span><span class="p">{</span><span class="k">background-color</span><span class="o">:</span><span class="m">#f7f7f7</span><span class="p">}</span></div></pre></div></td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.02741s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

@@ -13,15 +13,15 @@ And then execute:
 
 ## Usage
 
-1. Add this line below before require_tree on 'application.css' file
+Add this line below before require_tree on 'application.css' file:
 
     *= require footable-on-rails
 
-2. Add this line after the above line to use the metro style
+Add this line after the above line to use the metro style:
 
     *= require footable-on-rails/footable.metro.css
 
-2. Add this line below before require_tree on 'application.js'
+Add this line below before require_tree on 'application.js':
 
     //= require footable-on-rails
 

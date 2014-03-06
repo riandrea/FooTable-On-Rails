@@ -25,6 +25,10 @@ Add this line below before require_tree on 'application.js':
 
     //= require footable-on-rails
 
+## Documentation 
+
+Check out the [FooTable official demos](http://fooplugins.com/footable-demos/), the docs are included on every demo.
+
 ## Contributing
 
 1. Fork it
